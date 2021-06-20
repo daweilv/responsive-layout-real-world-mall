@@ -1,0 +1,31 @@
+@import './mixins/media.less';
+
+@media @media-up-md {
+    .main--order {
+        .wrapper--order {
+            max-width: 476px;
+            margin: 0 auto;
+        }
+        .actions {
+            margin-bottom: 77px;
+        }
+        .form__payment_method {
+            padding-bottom: 30px;
+        }
+
+        .wrapper--confirm{
+            display: flex;
+            padding-left: 140px;
+            .form__title{
+                flex: none;
+                width: 280px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 0;
+            }
+            .cart__wrapper{
+                flex: auto;
+            }
+        }
+    }
+}

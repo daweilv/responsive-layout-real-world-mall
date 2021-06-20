@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Cart</title>
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <script>
+            var responsive = function() {
+                var clientWidth = document.documentElement.clientWidth;
+                if (clientWidth < 576) {
+                    document.documentElement.style.fontSize =
+                        (clientWidth / 750) * 100 + 'px';
+                } else if (clientWidth < 992) {
+                    document.documentElement.style.fontSize =
+                        (clientWidth / 1536) * 100 + 'px';
+                } else {
+                    document.documentElement.style.fontSize = '50px';
+                }
+            };
+            responsive();
+            window.onresize = function() {
+                responsive();
+            };
+        </script>
+    </head>
+
+    <body>
+        <div class="header header--sec">
+            <div class="container">
+                <div class="header__left">
+                    <div class="logo__wrapper">
+                        <a href="index.html">
+                            <img
+                                class="logo"
+                                src="../asset/img/Logo@2x.png"
+                                alt="logo"
+                        /></a>
+                    </div>
+                </div>
+                <div class="header__center">
+                    CART
+                </div>
+                <div class="header__right">
+                    <a class="gouwuche active" href="cart.html">
+                        <span>CART</span>
+                        <img
+                            class="logo"
+                            src="../asset/img/gouwuche@2x.png"
+                            alt="gouwuche@2x.png"
+                    /></a>
+                    <a class="lianxi" href="contact.html">
+                        <span>CONTACT</span>
+                        <img
+                            class="nav"
+                            src="../asset/img/lianxi@2x.png"
+                            alt="lianxi@2x.png"
+                    /></a>
+                    <a class="yuyan" href="item.html">
+                        <span>LANGUAGE</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main main--cart">
+            <div class="container">
+                <div class="cart__item-list">
+                    <div class="cart__product">
+                        <div class="cart__product__img">
+                            <a href="item.html">
+                                <img
+                                    src="../asset/img/product1@2x.png"
+                                    alt="product__img"
+                                />
+                            </a>
+                        </div>
+                        <div class="cart__product__meta">
+                            <div class="cart__meta__item">
+                                <div class="cart__product__name">
+                                    ADIDAS YEEZY BOOST 350 V2 BLACK ORANGE
+                                </div>
+                            </div>
+                            <div
+                                class="cart__meta__item cart__meta__item--control"
+                            >
+                                <div class="form__select form__select--xs">
+                                    <select name="" id="" required="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                    <img
+                                        src="../asset/img/xiala@2x.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="cart__meta__item cart__meta__item--price"
+                            >
+                                <div class="cart__product__price">
+                                    <span class="cart__price__symbol">$</span>
+                                    <span class="cart__price__value">590</span>
+                                    <span class="cart__price__local"
+                                        >（￥6700）</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart__product">
+                        <div class="cart__product__img">
+                            <a href="item.html">
+                                <img
+                                    src="../asset/img/product2@2x.png"
+                                    alt="product__img"
+                                />
+                            </a>
+                        </div>
+                        <div class="cart__product__meta">
+                            <div class="cart__meta__item">
+                                <div class="cart__product__name">
+                                    NIKE AIR FORCE 1 LOW OFF WHITE BLACK 2.0
+                                </div>
+                            </div>
+                            <div
+                                class="cart__meta__item cart__meta__item--control"
+                            >
+                                <div class="form__select form__select--xs">
+                                    <select name="" id="" required="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                    <img
+                                        src="../asset/img/xiala@2x.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="cart__meta__item cart__meta__item--price"
+                            >
+                                <div class="cart__product__price">
+                                    <span class="cart__price__symbol">$</span>
+                                    <span class="cart__price__value">590</span>
+                                    <span class="cart__price__local"
+                                        >（￥6700）</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart__product">
+                        <div class="cart__product__img">
+                            <a href="item.html">
+                                <img
+                                    src="../asset/img/product3@2x.png"
+                                    alt="product__img"
+                                />
+                            </a>
+                        </div>
+                        <div class="cart__product__meta">
+                            <div class="cart__meta__item">
+                                <div class="cart__product__name">
+                                    OFF-WHITE X NIKE AIR PRESTO 2.0
+                                </div>
+                            </div>
+                            <div
+                                class="cart__meta__item cart__meta__item--control"
+                            >
+                                <div class="form__select form__select--xs">
+                                    <select name="" id="" required="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                    <img
+                                        src="../asset/img/xiala@2x.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="cart__meta__item cart__meta__item--price"
+                            >
+                                <div class="cart__product__price">
+                                    <span class="cart__price__symbol">$</span>
+                                    <span class="cart__price__value">1000</span>
+                                    <span class="cart__price__local"
+                                        >（￥6700）</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart__product">
+                        <div class="cart__product__img">
+                            <a href="item.html">
+                                <img
+                                    src="../asset/img/product5@2x.png"
+                                    alt="product__img"
+                                />
+                            </a>
+                        </div>
+                        <div class="cart__product__meta">
+                            <div class="cart__meta__item">
+                                <div class="cart__product__name">
+                                    NIKE LEBRON 16 FRESH BRED BLACK RED
+                                </div>
+                            </div>
+                            <div
+                                class="cart__meta__item cart__meta__item--control"
+                            >
+                                <div class="form__select form__select--xs">
+                                    <select name="" id="" required="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                    <img
+                                        src="../asset/img/xiala@2x.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="cart__meta__item cart__meta__item--price"
+                            >
+                                <div class="cart__product__price">
+                                    <span class="cart__price__symbol">$</span>
+                                    <span class="cart__price__value">690</span>
+                                    <span class="cart__price__local"
+                                        >（￥4623）</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart__summary">
+                    <div class="summary__item">
+                        <span class="label">The total number:</span
+                        ><span class="summary__count__value">3</span>
+                    </div>
+                    <div class="summary__item">
+                        <span class="label">Sub total:</span
+                        ><span class="summary__product__price"
+                            ><span class="summary__price__symbol">$</span
+                            ><span class="summary__price__value">2480</span
+                            ><span class="summary__price__local"
+                                >（￥16616）</span
+                            ></span
+                        >
+                    </div>
+                    <div class="summary__item">
+                        <span class="label">Shipping cost:</span
+                        ><span class="summary__product__price"
+                            ><span class="summary__price__symbol">$</span
+                            ><span class="summary__price__value">10</span
+                            ><span class="summary__price__local"
+                                >（￥67）</span
+                            ></span
+                        >
+                    </div>
+                    <div class="summary__item summary__item--bold">
+                        <span class="label">Total:</span
+                        ><span class="summary__product__price"
+                            ><span class="summary__price__symbol">$</span
+                            ><span class="summary__price__value">2490</span
+                            ><span class="summary__price__local"
+                                >（￥16683）</span
+                            ></span
+                        >
+                    </div>
+                </div>
+                <div class="cart__actions">
+                    <button class="btn_block">First purchase</button>
+                    <a class="btn_left button" href="order.html"
+                        >Continue shopping</a
+                    >
+                    <button class="btn_right login">Login</button>
+                </div>
+                <div class="cart_tips">
+                    The settlement is done in Japanese yen. Please keep in mind
+                    that quotations in currencies other than Japanese yen may
+                    fluctuate.
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__column">
+                    <div class="column__item">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">Specified Commercial Transaction Law</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">Flow of Deliver</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">About Shipping Cost</a>
+                    </div>
+                    <div class="column__item"><a href="#">FAQ</a></div>
+                </div>
+                <div class="footer__language">
+                    LANGUAGE :<select name="" id="">
+                        <option value="English" selected>English</option>
+                        <option value="Japanese">Japanese</option>
+                    </select>
+                </div>
+                <div class="footer__copyright">
+                    Github <a href=''></a>
+                </div>
+            </div>
+        </div>
+        <div class="g-modal login-modal">
+            <div class="g-mask"></div>
+            <div class="g-modal__main">
+                <div class="login-form">
+                    <div class="form_control">
+                        <input
+                            type="text"
+                            name="username"
+                            placeholder="Username or Email"
+                        />
+                    </div>
+                    <div class="form_control">
+                        <input
+                            type="password"
+                            name="password"
+                            placeholder="Password"
+                        />
+                    </div>
+                    <div class="form_control form_control--more">
+                        <a href="">Forget password</a>
+                        <a href="">Contact us</a>
+                    </div>
+                    <div class="form_control">
+                        <button>Login</button>
+                    </div>
+                    <div class="form_control form_control--other">
+                        <a href="">
+                            No account? Click here to buy
+                        </a>
+                    </div>
+                </div>
+                <div class="account_cooperation">
+                    <div class="tips">Sign in with a social account</div>
+                    <div class="accounts">
+                        <a href=""
+                            ><img src="../asset/img/Facebook@2x.png" alt=""
+                        /></a>
+                        <a href=""
+                            ><img src="../asset/img/line@2x.png" alt=""
+                        /></a>
+                        <a href=""
+                            ><img src="../asset/img/xinlang@2x.png" alt=""
+                        /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

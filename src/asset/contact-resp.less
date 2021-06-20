@@ -1,0 +1,39 @@
+@import './mixins/media.less';
+
+@media @media-up-md {
+    .main--contact {
+        .wrapper--contact {
+            max-width: 476px;
+            margin: 0 auto;
+        }
+        .form__contact {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            margin-bottom: 60px;
+        }
+        .actions {
+            margin-bottom: 166px;
+        }
+        .form__control {
+            margin-bottom: 40px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .wrapper--btns {
+            margin: 0 auto;
+            max-width: 476px;
+            display: flex;
+        }
+        .btn_left {
+            flex: 1;
+            width: auto;
+            margin-right: 10px;
+        }
+        .btn_right {
+            flex: 1;
+            width: auto;
+            margin-left: 10px;
+        }
+    }
+}

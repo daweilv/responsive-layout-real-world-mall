@@ -1,0 +1,113 @@
+@import './mixins/media.less';
+
+@media @media-up-xs {
+    .container {
+        width: 560px;
+        margin: 0 auto;
+    }
+}
+
+@media @media-up-sm {
+    body {
+        background-color: #fff;
+    }
+    .container {
+        width: 980px;
+        margin: 0 auto;
+    }
+    .header {
+        .container {
+            height: 80px;
+        }
+        .header__left {
+            .caidan {
+                display: none;
+            }
+            .logo {
+                display: block;
+            }
+            img {
+                height: 34px;
+                width: auto;
+            }
+        }
+        .header__center {
+            display: none;
+        }
+        .header__right {
+            height: 100%;
+            a {
+                display: block;
+                height: 100%;
+                padding: 33px 0 28px;
+            }
+            .gouwuche,
+            .lianxi {
+                width: 140px;
+                padding-right: 0;
+                justify-content: center;
+                &:hover,
+                &.active {
+                    background-color: #f2f3f5;
+                }
+            }
+            .gouwuche {
+                margin-right: 80px;
+            }
+            .lianxi {
+                margin-right: 120px;
+            }
+            span {
+                display: block;
+                font-size: 16px;
+                font-family: SanFranciscoDisplay-Bold, sans-serif;
+                color: #333333;
+                line-height: 19px;
+            }
+            img {
+                display: none;
+            }
+        }
+    }
+    .header--sec {
+        .logo__wrapper {
+            padding-left: 0;
+        }
+    }
+    .main {
+        padding-bottom: 250px;
+        background-color: #f2f3f5;
+        .container {
+            padding: 20px 0 40px;
+        }
+
+        .logo__wrapper {
+            display: none;
+        }
+    }
+    .footer {
+        .container {
+            padding: 46px 10px 20px;
+        }
+        .footer__column {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 67px;
+        }
+        .column__item {
+            font-size: 14px;
+            line-height: 18px;
+            margin-bottom: 0;
+        }
+        .footer__language {
+            margin-bottom: 68px;
+        }
+    }
+}
+
+@media @media-up-md {
+    .container {
+        width: 1190px;
+        margin: 0 auto;
+    }
+}

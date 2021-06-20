@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Thank you</title>
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <script>
+            var responsive = function() {
+                var clientWidth = document.documentElement.clientWidth;
+                if (clientWidth < 576) {
+                    document.documentElement.style.fontSize =
+                        (clientWidth / 750) * 100 + 'px';
+                } else if (clientWidth < 992) {
+                    document.documentElement.style.fontSize =
+                        (clientWidth / 1536) * 100 + 'px';
+                } else {
+                    document.documentElement.style.fontSize = '50px';
+                }
+            };
+            responsive();
+            window.onresize = function() {
+                responsive();
+            };
+        </script>
+    </head>
+
+    <body>
+        <div class="header header--sec">
+            <div class="container">
+                <div class="header__left">
+                    <div class="logo__wrapper">
+                        <a href="index.html">
+                            <img
+                                class="logo"
+                                src="../asset/img/Logo@2x.png"
+                                alt="logo"
+                        /></a>
+                    </div>
+                </div>
+                <div class="header__center">
+                    Contact
+                </div>
+                <div class="header__right">
+                    <a class="gouwuche" href="cart.html">
+                        <span>CART</span>
+                        <img
+                            class="logo"
+                            src="../asset/img/gouwuche@2x.png"
+                            alt="gouwuche@2x.png"
+                    /></a>
+                    <a class="lianxi" href="contact.html">
+                        <span>CONTACT</span>
+                        <img
+                            class="nav"
+                            src="../asset/img/lianxi@2x.png"
+                            alt="lianxi@2x.png"
+                    /></a>
+                    <a class="yuyan" href="item.html">
+                        <span>LANGUAGE</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main main--thanks">
+            <div class="container">
+                <div class="thanks">
+                    <img src="../asset/img/success@2x.png" alt="" />
+                    <div class="tku">Thank you!!</div>
+                    <div class="tips">
+                        Purchasing information was sent to the registered e-mail
+                        address. We will contact you as soon as the item can be
+                        shipped.
+                    </div>
+                    <div class="order_id">
+                        <span>Order ID：</span>
+                        <span>AG 384268</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__column">
+                    <div class="column__item">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">Specified Commercial Transaction Law</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">Flow of Deliver</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">About Shipping Cost</a>
+                    </div>
+                    <div class="column__item"><a href="#">FAQ</a></div>
+                </div>
+                <div class="footer__language">
+                    LANGUAGE :<select name="" id="">
+                        <option value="English" selected>English</option>
+                        <option value="Japanese">Japanese</option>
+                    </select>
+                </div>
+                <div class="footer__copyright">
+                    Copyright&#169; 私のストア All Right Reserved.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+@import 'g-layout.less';
+@import 'g-radio.less';
+@import 'c-form.less';
+
+.main--order {
+    .add_imgs {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 20px;
+        pointer-events: none;
+        img {
+            height: 100%;
+            max-width: 100%;
+            margin-right: 4px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .actions {
+        margin: 30px 16px 50px;
+    }
+}
+
+@import 'order-resp.less';

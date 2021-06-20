@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Welcome</title>
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <script>
+            var responsive = function() {
+                var clientWidth = document.documentElement.clientWidth;
+                if (clientWidth < 576) {
+                    document.documentElement.style.fontSize =
+                        (clientWidth / 750) * 100 + 'px';
+                } else if (clientWidth < 992) {
+                    document.documentElement.style.fontSize =
+                        (clientWidth / 1536) * 100 + 'px';
+                } else {
+                    document.documentElement.style.fontSize = '50px';
+                }
+            };
+            responsive();
+            window.onresize = function() {
+                responsive();
+            };
+        </script>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="header__left">
+                    <div class="caidan" id="caidan">
+                        <img
+                            src="../asset/img/caidan@2x.png"
+                            alt="caidan@2x.png"
+                        />
+                    </div>
+                    <div class="logo__wrapper">
+                        <a href="index.html">
+                            <img
+                                class="logo"
+                                src="../asset/img/Logo@2x.png"
+                                alt="logo"
+                        /></a>
+                    </div>
+                </div>
+                <div class="header__center">
+                    V-SHOP
+                </div>
+                <div class="header__right">
+                    <a class="gouwuche" href="cart.html">
+                        <span>CART</span>
+                        <img
+                            class="logo"
+                            src="../asset/img/gouwuche@2x.png"
+                            alt="gouwuche@2x.png"
+                    /></a>
+                    <a class="lianxi" href="contact.html">
+                        <span>CONTACT</span>
+                        <img
+                            class="nav"
+                            src="../asset/img/lianxi@2x.png"
+                            alt="lianxi@2x.png"
+                    /></a>
+                    <a class="yuyan" href="item.html">
+                        <span>LANGUAGE</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main main--home">
+            <div class="container">
+                <div class="drawer__bg" id="drawer__bg"></div>
+                <div class="main__category">
+                    <div class="logo__wrapper">
+                        <img
+                            class="logo"
+                            src="../asset/img/Logo@2x.png"
+                            alt="logo"
+                        />
+                    </div>
+                    <div class="category__title">
+                        CATEGORY
+                    </div>
+                    <ul id="categoryMenu" class="category__items1">
+                        <li class="category__item1 category__item1--open">
+                            <div class="category__name">
+                                BRAND<img
+                                    src="../asset/img/more-off@2x.png"
+                                    alt="more-off@2x.png"
+                                />
+                            </div>
+                            <ul class="category__items2">
+                                <li class="category__item2 active">
+                                    <a href="classification.html">NIKE</a>
+                                </li>
+                                <li class="category__item2">
+                                    <a href="classification.html">ADIDAS</a>
+                                </li>
+                                <li class="category__item2">
+                                    <a href="classification.html">Supreme</a>
+                                </li>
+                                <li class="category__item2">
+                                    <a href="classification.html">Vans</a>
+                                </li>
+                                <li class="category__item2">
+                                    <a href="classification.html">CONVERSE</a>
+                                </li>
+                                <li class="category__item2">
+                                    <a href="classification.html">PUMA</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="category__item1">
+                            <div class="category__name">
+                                SNEAKERS<img
+                                    src="../asset/img/more-off@2x.png"
+                                    alt="more-off@2x.png"
+                                />
+                            </div>
+                            <ul class="category__items2">
+                                <li class="category__item2">
+                                    <a href="classification.html">NIKE</a>
+                                </li>
+                                <li class="category__item2">
+                                    <a href="classification.html">ADIDAS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="category__item1">
+                            <div class="category__name">
+                                LEISURE<img
+                                    src="../asset/img/more-off@2x.png"
+                                    alt="more-off@2x.png"
+                                />
+                            </div>
+                            <ul class="category__items2">
+                                <li class="category__item2">
+                                    <a href="classification.html">NIKE</a>
+                                </li>
+                                <li class="category__item2">
+                                    <a href="classification.html">ADIDAS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="category__item1">
+                            <div class="category__name">
+                                TIDE PLAY<img
+                                    src="../asset/img/more-off@2x.png"
+                                    alt="more-off@2x.png"
+                                />
+                            </div>
+                            <ul class="category__items2">
+                                <li class="category__item2">
+                                    <a href="classification.html">NIKE</a>
+                                </li>
+                                <li class="category__item2">
+                                    <a href="classification.html">ADIDAS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="category__item1">
+                            <div class="category__name">
+                                WATCH<img
+                                    src="../asset/img/more-off@2x.png"
+                                    alt="more-off@2x.png"
+                                />
+                            </div>
+                            <ul class="category__items2">
+                                <li class="category__item2">
+                                    <a href="classification.html">NIKE</a>
+                                </li>
+                                <li class="category__item2">
+                                    <a href="classification.html">ADIDAS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="category__item1">
+                            <div class="category__name">
+                                DIGITAL<img
+                                    src="../asset/img/more-off@2x.png"
+                                    alt="more-off@2x.png"
+                                />
+                            </div>
+                            <ul class="category__items2">
+                                <li class="category__item2">
+                                    <a href="classification.html">NIKE</a>
+                                </li>
+                                <li class="category__item2">
+                                    <a href="classification.html">ADIDAS</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main__content">
+                    <div class="products">
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product1@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            NIKE KYRIE 5 BLK MGC DARK MAGIC
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value"
+                                                >119</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__label product__label--new"
+                                    >
+                                        NEW
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product2@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            NIKE KYRIE 4 TRIPLE BLACK LRVING 4
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value">88</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__label product__label--soldout"
+                                    >
+                                        SOLDOUT
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product3@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            ADIDAS YEEZY BOOST 350 V2 BLACK
+                                            ORANGE
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value"
+                                                >1000</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product4@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            OFF-WHITE X NIKE AIR PRESTO 2.0
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value"
+                                                >790</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product5@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            NIKE LEBRON 16 FRESH BRED BLACK RED
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value"
+                                                >590</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product6@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            NIKE AIR FORCE 1 LOW OFF WHITE BLACK
+                                            2.0
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value"
+                                                >690</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product1@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            NIKE KYRIE 5 BLK MGC DARK MAGIC
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value"
+                                                >119</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product2@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            NIKE KYRIE 4 TRIPLE BLACK LRVING 4
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value">88</span>
+                                        </div>
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product3@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            ADIDAS YEEZY BOOST 350 V2 BLACK
+                                            ORANGE
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value"
+                                                >1000</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product4@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            OFF-WHITE X NIKE AIR PRESTO 2.0
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value"
+                                                >790</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product5@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            NIKE LEBRON 16 FRESH BRED BLACK RED
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value"
+                                                >590</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                        <div class="product__wrapper">
+                            <a href="item.html">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img
+                                            src="../asset/img/product6@2x.png"
+                                            alt="product__img"
+                                        />
+                                    </div>
+                                    <div class="product__meta">
+                                        <div class="product__name">
+                                            NIKE AIR FORCE 1 LOW OFF WHITE BLACK
+                                            2.0
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="price__symbol">$</span>
+                                            <span class="price__value"
+                                                >690</span
+                                            >
+                                        </div>
+                                    </div>
+                                </div></a
+                            >
+                        </div>
+                    </div>
+                    <div class="loading__wrapper">
+                        <div class="loading"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__column">
+                    <div class="column__item">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">Specified Commercial Transaction Law</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">Flow of Deliver</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">About Shipping Cost</a>
+                    </div>
+                    <div class="column__item"><a href="#">FAQ</a></div>
+                </div>
+                <div class="footer__language">
+                    LANGUAGE :<select name="" id="">
+                        <option value="English" selected>English</option>
+                        <option value="Japanese">Japanese</option>
+                    </select>
+                </div>
+                <div class="footer__copyright">
+                    Copyright&#169; 私のストア All Right Reserved.
+                </div>
+            </div>
+        </div>
+        <!--<script src="index.js"></script>-->
+    </body>
+</html>

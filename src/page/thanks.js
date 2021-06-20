@@ -1,0 +1,1 @@
+import '../asset/thanks.less'

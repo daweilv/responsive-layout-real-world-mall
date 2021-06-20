@@ -1,0 +1,42 @@
+.c-counter {
+    height: 20px;
+    width: 100px;
+    display: inline-flex;
+
+    .c-counter__minus,
+    .c-counter__plus {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        img {
+            width: 20px;
+            height: 20px;
+            pointer-events: none;
+        }
+    }
+    .c-counter__inputcontainer {
+        flex: 0 0 60px;
+        width: 60px;
+        padding: 0 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .c-counter__input {
+        // rest css
+        outline: none;
+        height: 100%;
+        background-color: #fff;
+        border: none;
+        font-size: 0.32rem;
+        color: #363636;
+        line-height: normal;
+        text-align: center;
+
+        width: 100%;
+        border-radius: 2px;
+        font-family: SanFranciscoDisplay-Bold, sans-serif;
+        font-weight: bold;
+    }
+}

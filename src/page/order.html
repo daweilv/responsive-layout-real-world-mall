@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Order</title>
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <script>
+            var responsive = function() {
+                var clientWidth = document.documentElement.clientWidth;
+                if (clientWidth < 576) {
+                    document.documentElement.style.fontSize =
+                        (clientWidth / 750) * 100 + 'px';
+                } else if (clientWidth < 992) {
+                    document.documentElement.style.fontSize =
+                        (clientWidth / 1536) * 100 + 'px';
+                } else {
+                    document.documentElement.style.fontSize = '50px';
+                }
+            };
+            responsive();
+            window.onresize = function() {
+                responsive();
+            };
+        </script>
+    </head>
+
+    <body>
+        <div class="header header--sec">
+            <div class="container">
+                <div class="header__left">
+                    <div class="logo__wrapper">
+                        <a href="index.html">
+                            <img
+                                class="logo"
+                                src="../asset/img/Logo@2x.png"
+                                alt="logo"
+                        /></a>
+                    </div>
+                </div>
+                <div class="header__center">
+                    CART
+                </div>
+                <div class="header__right">
+                    <a class="gouwuche" href="cart.html">
+                        <span>CART</span>
+                        <img
+                            class="logo"
+                            src="../asset/img/gouwuche@2x.png"
+                            alt="gouwuche@2x.png"
+                    /></a>
+                    <a class="lianxi" href="contact.html">
+                        <span>CONTACT</span>
+                        <img
+                            class="nav"
+                            src="../asset/img/lianxi@2x.png"
+                            alt="lianxi@2x.png"
+                    /></a>
+                    <a class="yuyan" href="item.html">
+                        <span>LANGUAGE</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main main--order">
+            <div class="container">
+                <div class="form form__shipping_address">
+                    <div class="wrapper--order">
+                        <div class="form__title">Shipping Address</div>
+                        <div class="form__content">
+                            <div class="form__input">
+                                <input type="text" placeholder="Name*" />
+                            </div>
+
+                            <div class="form__line">
+                                <div class="form__select">
+                                    <select name="" id="" required>
+                                        <option value="" hidden>Country</option>
+                                        <option value="Japan">Japan</option>
+                                        <option value="America">America</option>
+                                    </select>
+                                    <img
+                                        src="../asset/img/more-open@2x.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="form__select">
+                                    <select name="" id="" required>
+                                        <option value="" hidden>City</option>
+                                        <option value="Tokyo">Tokyo</option>
+                                        <option value="Kyoto">Kyoto</option>
+                                    </select>
+                                    <img
+                                        src="../asset/img/more-open@2x.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="form__input">
+                                <input type="text" placeholder="Address1*" />
+                            </div>
+                            <div class="form__input">
+                                <input type="text" placeholder="Address2" />
+                            </div>
+                            <div class="form__input">
+                                <input type="text" placeholder="Zip-code" />
+                            </div>
+                            <div class="form__input">
+                                <input
+                                    type="text"
+                                    placeholder="Phone Number*"
+                                />
+                            </div>
+                            <div class="form__input">
+                                <input
+                                    type="text"
+                                    placeholder="Mail address*"
+                                />
+                            </div>
+                            <div class="form__input">
+                                <input type="text" placeholder="Password*" />
+                            </div>
+                            <div class="form__input">
+                                <input
+                                    type="text"
+                                    placeholder="Password(re-enter)*"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form form__account_cooperation">
+                    <div class="wrapper--order">
+                        <div class="form__title">Account cooperation</div>
+                        <div class="form__subtitle">
+                            It will be easier to purchase from the next time.
+                        </div>
+                        <div class="form__accounts">
+                            <div class="form__account">
+                                <img
+                                    src="../asset/img/Facebook@2x.png"
+                                    alt=""
+                                /><span>Unlinked</span>
+                            </div>
+                            <div class="form__account">
+                                <img
+                                    src="../asset/img/line@2x.png"
+                                    alt=""
+                                /><span>Linked</span>
+                            </div>
+                            <div class="form__account">
+                                <img
+                                    src="../asset/img/xinlang@2x.png"
+                                    alt=""
+                                /><span>Unlinked</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form form__payment_method">
+                    <div class="wrapper--order">
+                        <div class="form__title">
+                            Selection of Payment method
+                        </div>
+
+                        <div class="form__content">
+                            <div class="form__input">
+                                <div class="radio__wrapper">
+                                    <input
+                                        type="radio"
+                                        class="radio__input"
+                                        id="cc"
+                                        name="pay_method"
+                                    />
+                                    <label for="cc" class="radio__label"
+                                        >Credit Card</label
+                                    >
+                                    <div class="radio__check"></div>
+                                    <div class="add_imgs">
+                                        <img
+                                            src="../asset/img/cc-visa@2x.png"
+                                            alt=""
+                                        />
+                                        <img
+                                            src="../asset/img/zhifupingtai-master@2x.png"
+                                            alt=""
+                                        />
+                                        <img
+                                            src="../asset/img/americanexpress@2x.png"
+                                            alt=""
+                                        />
+                                        <img
+                                            src="../asset/img/jcb@2x.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__subtitle">
+                                Credit card information
+                            </div>
+                            <div class="form__input">
+                                <input type="text" placeholder="Card Number" />
+                            </div>
+
+                            <div class="form__line">
+                                <div class="form__select">
+                                    <select name="" id="" required>
+                                        <option hidden value="">Month</option>
+                                        <option value="12">12</option>
+                                        <option value="11">11</option>
+                                        <option value="10">10</option>
+                                        <option value="9">9</option>
+                                        <option value="8">8</option>
+                                        <option value="7">7</option>
+                                        <option value="6">6</option>
+                                        <option value="5">5</option>
+                                        <option value="4">4</option>
+                                        <option value="3">3</option>
+                                        <option value="2">2</option>
+                                        <option value="1">1</option>
+                                    </select>
+                                    <img
+                                        src="../asset/img/more-open@2x.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="form__select">
+                                    <select name="" id="" required>
+                                        <option hidden value="">Year</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2014">2014</option>
+                                        <option value="2013">2013</option>
+                                        <option value="2012">2012</option>
+                                        <option value="2011">2011</option>
+                                    </select>
+                                    <img
+                                        src="../asset/img/more-open@2x.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="form__input">
+                                <input type="text" placeholder="CVV code" />
+                            </div>
+
+                            <div class="form__input">
+                                <div class="radio__wrapper">
+                                    <input
+                                        type="radio"
+                                        class="radio__input"
+                                        id="pp"
+                                        name="pay_method"
+                                        checked
+                                    />
+                                    <label for="pp" class="radio__label"
+                                        >Paypal</label
+                                    >
+                                    <div class="radio__check"></div>
+                                    <div class="add_imgs">
+                                        <img
+                                            src="../asset/img/Paypal@2x.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <div class="wrapper--order">
+                        <a class="button" href="confirm.html">Proceed to check</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__column">
+                    <div class="column__item">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">Specified Commercial Transaction Law</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">Flow of Deliver</a>
+                    </div>
+                    <div class="column__item">
+                        <a href="#">About Shipping Cost</a>
+                    </div>
+                    <div class="column__item"><a href="#">FAQ</a></div>
+                </div>
+                <div class="footer__language">
+                    LANGUAGE :<select name="" id="">
+                        <option value="English" selected>English</option>
+                        <option value="Japanese">Japanese</option>
+                    </select>
+                </div>
+                <div class="footer__copyright">
+                    Copyright&#169; 私のストア All Right Reserved.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
